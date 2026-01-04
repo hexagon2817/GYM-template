@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css" />
+
+    <link rel="stylesheet" href="./css folder/contact.css" />
+  </head>
+  <body>
+    <div class="cursor"></div>
+
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">TITAN<span>X</span></a>
+
+        <div class="ms-auto d-flex align-items-center">
+          <!-- Desktop Links -->
+          <div class="nav-links d-none d-lg-flex me-4">
+            <a href="./index.html">HOME</a>
+            <a href="#about">MISSION</a>
+            <a href="#programs">PROGRAMS</a>
+            <a href="./about.html">ABOUT US</a>
+          </div>
+
+          <!-- Desktop Contact Button (UNCHANGED) -->
+          <a href="./contact.html" class="btn-main-sm d-none d-lg-inline-flex">
+            CONTACT US
+          </a>
+
+          <!-- Mobile Hamburger (NEW) -->
+          <div class="hamburger d-lg-none">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- MOBILE MENU (USES SAME LINKS) -->
+    <div class="mobile-nav">
+      <div class="mobile-close">
+        <span></span>
+        <span></span>
+      </div>
+
+      <a href="./index.html">HOME</a>
+      <a href="#about">MISSION</a>
+      <a href="#programs">PROGRAMS</a>
+      <a href="./about.html">ABOUT US</a>
+      <a href="./contact.html" class="mobile-cta">CONTACT US</a>
+    </div>
+
+    <main>
+      <section class="contact-door-hero colorful">
+        <!-- color glow layer -->
+        <div class="hero-color-glow"></div>
+
+        <!-- doors -->
+        <div class="door left-door"></div>
+        <div class="door right-door"></div>
+
+        <!-- content -->
+        <div class="door-content">
+          <span class="eyebrow">CONTACT</span>
+
+          <h1 class="door-title">
+            STEP<br />
+            INSIDE
+          </h1>
+
+          <p class="door-text">
+            This is where the conversation begins. Let’s talk about what’s next.
+          </p>
+        </div>
+      </section>
+
+      <!-- contact form  -->
+
+      <section class="contact-form-stage">
+        <!-- background glow -->
+        <div class="form-color-glow"></div>
+
+        <div class="container-fluid">
+          <div class="form-stage-layout">
+            <!-- LEFT MESSAGE -->
+            <div class="form-stage-text">
+              <span class="eyebrow">SEND A MESSAGE</span>
+
+              <h2 class="form-title">
+                TELL US<br />
+                WHAT YOU’RE<br />
+                LOOKING FOR
+              </h2>
+
+              <p class="form-desc">
+                Every message is read. Every response is intentional. Share your
+                goal, question, or idea — we’ll guide you forward.
+              </p>
+
+              <div class="form-meta">
+                <div>
+                  <span>EMAIL</span>
+                  <strong>info@titanx.com</strong>
+                </div>
+                <div>
+                  <span>RESPONSE TIME</span>
+                  <strong>WITHIN 24 HOURS</strong>
+                </div>
+              </div>
+            </div>
+
+            <!-- RIGHT FORM -->
+            <div class="form-stage-box">
+              <form class="contact-form">
+                <div class="field">
+                  <input type="text" required />
+                  <label>FULL NAME</label>
+                </div>
+
+                <div class="field">
+                  <input type="email" required />
+                  <label>EMAIL ADDRESS</label>
+                </div>
+
+                <div class="field">
+                  <textarea rows="4" required></textarea>
+                  <label>YOUR MESSAGE</label>
+                </div>
+
+                <button type="submit" class="form-btn">
+                  SEND MESSAGE
+                  <span class="btn-glow"></span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-signal">
+        <!-- animated background text -->
+        <div class="signal-bg">
+          <span>SIGNAL</span>
+          <span>SENT</span>
+        </div>
+
+        <div class="container-fluid">
+          <div class="signal-content">
+            <h2 class="signal-title">
+              YOUR SIGNAL<br />
+              HAS BEEN SENT
+            </h2>
+
+            <p class="signal-text">
+              We move with intention. Expect a clear response — no noise, no
+              pressure.
+            </p>
+
+            <!-- animated strength mark -->
+            <div class="signal-mark">
+              <span class="line"></span>
+              <span class="core"></span>
+              <span class="line"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Floating WhatsApp Button -->
+    <a
+      href="https://wa.me/919999999999?text=Hello%20I%20would%20like%20to%20book%20an%20Ayurveda%20consultation"
+      class="whatsapp-float"
+      target="_blank"
+      aria-label="Chat on WhatsApp"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <footer class="footer">
+      <div class="container">
+        <!-- Logo -->
+        <div class="footer-logo text-center mb-3">
+          <a href="./index.html" class="footer-brand">TITAN<span>X</span></a>
+        </div>
+
+        <!-- Navigation -->
+        <div class="footer-nav text-center mb-3">
+          <div class="nav-links">
+            <a href="./index.html">HOME</a>
+            <a href="#about">MISSION</a>
+            <a href="#programs">PROGRAMS</a>
+            <a href="#trainers">TRAINERS</a>
+            <a href="./about.html">ABOUT</a>
+            <a href="./contact.html">CONTACT</a>
+          </div>
+        </div>
+
+        <!-- Social Links -->
+        <div class="social-links text-center mb-3">
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-x-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-info text-center">
+          <div class="contact-item d-inline-block mx-3">
+            <i class="fas fa-map-marker-alt text-primary me-2"></i>
+            <span>77 Silicon Valley, CA</span>
+          </div>
+          <div class="contact-item d-inline-block mx-3">
+            <i class="fas fa-phone text-primary me-2"></i>
+            <span>+1 (555) 982-0010</span>
+          </div>
+          <div class="contact-item d-inline-block mx-3">
+            <i class="fas fa-envelope text-primary me-2"></i>
+            <span>info@titanx.com</span>
+          </div>
+        </div>
+
+        <!-- Divider -->
+        <hr class="footer-divider mb-3" />
+
+        <!-- Copyright -->
+        <div class="footer-bottom text-center">
+          <p class="copyright mb-0">
+            © 2025 TITAN X ELITE PERFORMANCE. ALL RIGHTS RESERVED.
+          </p>
+          <span style="color: #666; font-size: 13px">
+            Proudly designed by
+            <a
+              style="text-decoration: none; color: #666"
+              href="https://designglobal.in/"
+              target="_blank"
+              >Design Global Technology</a
+            >
+          </span>
+          <p class="legal-links mt-2 mb-2">
+            <a href="#" class="legal-link">PRIVACY POLICY</a>
+            <span class="mx-2">|</span>
+            <a href="#" class="legal-link">TERMS OF SERVICE</a>
+            <span class="mx-2">|</span>
+            <a href="./contact.html" class="legal-link">CONTACT</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./gsap/gsap.min.js"></script>
+    <script src="./gsap/ScrollTrigger.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./gsap/contact.js"></script>
+  </body>
+</html>

@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css" />
+
+    <link rel="stylesheet" href="./css folder/style.css" />
+  </head>
+  <body>
+    <div class="cursor"></div>
+
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">TITAN<span>X</span></a>
+
+        <div class="ms-auto d-flex align-items-center">
+          <!-- Desktop Links -->
+          <div class="nav-links d-none d-lg-flex me-4">
+            <a href="./index.html">HOME</a>
+            <a href="#about">MISSION</a>
+            <a href="#programs">PROGRAMS</a>
+            <a href="./about.html">ABOUT US</a>
+          </div>
+
+          <!-- Desktop Contact Button (UNCHANGED) -->
+          <a href="./contact.html" class="btn-main-sm d-none d-lg-inline-flex">
+            CONTACT US
+          </a>
+
+          <!-- Mobile Hamburger (NEW) -->
+          <div class="hamburger d-lg-none">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- MOBILE MENU (USES SAME LINKS) -->
+    <div class="mobile-nav">
+      <div class="mobile-close">
+        <span></span>
+        <span></span>
+      </div>
+
+      <a href="./index.html">HOME</a>
+      <a href="#about">MISSION</a>
+      <a href="#programs">PROGRAMS</a>
+      <a href="./about.html">ABOUT US</a>
+      <a href="./contact.html" class="mobile-cta">CONTACT US</a>
+    </div>
+
+    <main>
+      <header id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container text-center">
+          <h1 class="hero-title">FORGE</h1>
+          <h1 class="hero-title outline" style="padding-top: 15px">ELITE</h1>
+          <p class="hero-para" style="padding-top: 15px">
+            The peak of human performance starts here.
+          </p>
+          <div class="hero-btn-wrap mt-4">
+            <a href="./contact.html" style="text-decoration: none">
+              <button class="btn-ultra">GET STARTED</button>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <!-- about section  -->
+
+      <section
+        id="about"
+        class="dna-section py-100 position-relative overflow-hidden"
+      >
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+              <div class="content-wrapper">
+                <h5 class="text-primary fw-bold mb-3">
+                  01 // SCIENTIFIC TRAINING
+                </h5>
+                <h2 class="display-2 fw-black mb-4 dna-title">
+                  RE-CODE YOUR <br /><span class="outline-text">LIMITS</span>
+                </h2>
+                <p class="lead text-secondary-light mb-5">
+                  We don't believe in "trying harder." We believe in training
+                  smarter. Our facility integrates biometric feedback with
+                  elite-level strength coaching to optimize your biology.
+                </p>
+
+                <div class="row g-4">
+                  <div class="col-sm-6">
+                    <div class="metric-item h-100">
+                      <div class="metric-val">
+                        <span class="counter-dna" data-target="24">0</span>%
+                      </div>
+                      <p class="small text-uppercase mb-0">VO2 Max Increase</p>
+                      <div class="metric-bar">
+                        <div class="fill" style="width: 75%"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="metric-item h-100">
+                      <div class="metric-val">
+                        <span class="counter-dna" data-target="15">0</span>%
+                      </div>
+                      <p class="small text-uppercase mb-0">
+                        Cortisol Reduction
+                      </p>
+                      <div class="metric-bar">
+                        <div class="fill" style="width: 45%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mt-5">
+                  <a href="./about.html" style="text-decoration: none">
+                    <button class="btn-ultra">EXPLORE THE SCIENCE</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="dna-visual-wrapper position-relative text-center">
+                <div class="scanner-circle"></div>
+
+                <div class="img-container shadow-2-strong">
+                  <img
+                    src="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?q=80&w=1000"
+                    class="img-fluid dna-img"
+                    alt="Bio-tracking athlete"
+                  />
+                </div>
+
+                <div class="data-tag tag-top">
+                  <i class="fas fa-heart-pulse"></i> 142 BPM
+                </div>
+                <div class="data-tag tag-bottom">
+                  <i class="fas fa-bolt"></i> 850W PWR
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- elite programs  -->
+      <section id="programs" class="programs py-100">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2 class="section-title reveal-up">
+              ELITE <span class="text-primary">PROGRAMS</span>
+            </h2>
+            <p class="text-secondary-light reveal-up">
+              Engineered for those who demand peak performance.
+            </p>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6 prog-card-wrap">
+              <div class="prog-card">
+                <div class="prog-icon"><i class="fas fa-dumbbell"></i></div>
+                <span class="prog-num">01</span>
+                <h3>STRENGTH</h3>
+                <p>Focus on compound movements and raw force production.</p>
+                <div class="prog-arrow">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 prog-card-wrap">
+              <div class="prog-card active-card">
+                <div class="prog-icon"><i class="fas fa-fire"></i></div>
+                <span class="prog-num">02</span>
+                <h3>METCON</h3>
+                <p>High-intensity metabolic conditioning for fat loss.</p>
+                <div class="prog-arrow">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 prog-card-wrap">
+              <div class="prog-card">
+                <div class="prog-icon"><i class="fas fa-brain"></i></div>
+                <span class="prog-num">03</span>
+                <h3>MINDSET</h3>
+                <p>Psychological resilience and cognitive recovery.</p>
+                <div class="prog-arrow">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 prog-card-wrap">
+              <div class="prog-card">
+                <div class="prog-icon">
+                  <i class="fas fa-person-walking"></i>
+                </div>
+                <span class="prog-num">04</span>
+                <h3>MOBILITY</h3>
+                <p>Advanced stretching and joint longevity protocols.</p>
+                <div class="prog-arrow">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 prog-card-wrap">
+              <div class="prog-card">
+                <div class="prog-icon"><i class="fas fa-hand-fist"></i></div>
+                <span class="prog-num">05</span>
+                <h3>COMBAT</h3>
+                <p>Functional striking and defensive movement patterns.</p>
+                <div class="prog-arrow">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 prog-card-wrap">
+              <div class="prog-card">
+                <div class="prog-icon"><i class="fas fa-heart-pulse"></i></div>
+                <span class="prog-num">06</span>
+                <h3>LONGEVITY</h3>
+                <p>Bio-feedback sessions for long-term health optimization.</p>
+                <div class="prog-arrow">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- data driven section (Tech Section) -->
+
+      <section
+        id="tech"
+        class="tech-section py-100 bg-black position-relative overflow-hidden"
+      >
+        <div class="tech-grid-bg"></div>
+
+        <div class="container position-relative z-index-2">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-5">
+              <div class="reveal-left">
+                <h5 class="text-primary fw-bold mb-3">
+                  02 // BIOMETRIC FEEDBACK
+                </h5>
+                <h2 class="display-3 fw-black mb-4">
+                  THE <span class="text-primary">SCIENCE</span> <br />
+                  OF POWER
+                </h2>
+                <p class="text-secondary-light lead mb-5">
+                  We transform your sweat into actionable data. Using wearable
+                  integration and AI analysis, we adjust your load in real-time
+                  to prevent plateauing.
+                </p>
+
+                <div class="waveform-container mb-5">
+                  <svg viewBox="0 0 200 60" class="heart-rate-svg">
+                    <polyline
+                      class="back"
+                      points="0,30 40,30 50,10 60,50 70,30 200,30"
+                    ></polyline>
+                    <polyline
+                      class="front"
+                      points="0,30 40,30 50,10 60,50 70,30 200,30"
+                    ></polyline>
+                  </svg>
+                  <span class="live-label"
+                    ><i class="fas fa-circle text-danger blink"></i> LIVE
+                    FEEDBACK</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-7">
+              <div class="data-dashboard">
+                <div class="row g-3">
+                  <div class="col-md-6 float-item" data-speed="0.05">
+                    <div class="data-tile">
+                      <div class="tile-header">
+                        <i class="fas fa-microchip"></i>
+                        <span>NEURAL LOAD</span>
+                      </div>
+                      <div class="tile-body">
+                        <h2 class="stat-number" data-target="94">0</h2>
+                        <span class="unit">%</span>
+                      </div>
+                      <div class="tile-footer">Efficiency Peak</div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 float-item" data-speed="-0.03">
+                    <div class="data-tile highlight">
+                      <div class="tile-header">
+                        <i class="fas fa-droplet"></i>
+                        <span>HYDRATION</span>
+                      </div>
+                      <div class="tile-body">
+                        <h2 class="stat-number" data-target="82">0</h2>
+                        <span class="unit">%</span>
+                      </div>
+                      <div class="tile-footer">Optimal Levels</div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 float-item" data-speed="0.02">
+                    <div class="data-tile">
+                      <div class="tile-header">
+                        <i class="fas fa-gauge-high"></i>
+                        <span>VO2 MAX</span>
+                      </div>
+                      <div class="tile-body">
+                        <h2 class="stat-number" data-target="68">0</h2>
+                        <span class="unit">ml/kg</span>
+                      </div>
+                      <div class="tile-footer">+12% vs Last Month</div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 float-item" data-speed="-0.05">
+                    <div class="data-tile">
+                      <div class="tile-header">
+                        <i class="fas fa-fire-flame-curved"></i>
+                        <span>CALORIC BURN</span>
+                      </div>
+                      <div class="tile-body">
+                        <h2 class="stat-number" data-target="1250">0</h2>
+                        <span class="unit">kcal</span>
+                      </div>
+                      <div class="tile-footer">Session Avg</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- trainers section  -->
+      <section
+        id="trainers"
+        class="trainers-section py-100 bg-darker overflow-hidden"
+      >
+        <div class="container">
+          <div class="row mb-5 align-items-end reveal-up">
+            <div class="col-lg-8">
+              <h5 class="text-primary fw-bold mb-3">03 // THE COHORT</h5>
+              <h2 class="display-3 fw-black mb-0">
+                MASTER <span class="outline-text">TRAINERS</span>
+              </h2>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6 trainer-card-wrap">
+              <div class="trainer-card">
+                <img
+                  src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?q=80&w=800"
+                  alt="Viktor"
+                  class="trainer-img"
+                />
+                <div class="trainer-info">
+                  <div class="trainer-role">HEAD OF PERFORMANCE</div>
+                  <h4 class="trainer-name">VIKTOR VOLKOV</h4>
+                  <div class="trainer-bio">
+                    Specializing in Olympic lifting and metabolic optimization.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 trainer-card-wrap">
+              <div class="trainer-card">
+                <img
+                  src="https://images.unsplash.com/photo-1585892478508-130c50eb7a69?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Sarah"
+                  class="trainer-img"
+                />
+                <div class="trainer-info">
+                  <div class="trainer-role">BIOMETRIC ANALYST</div>
+                  <h4 class="trainer-name">SARAH CHEN</h4>
+                  <div class="trainer-bio">
+                    Expert in recovery protocols and neural efficiency.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 trainer-card-wrap">
+              <div class="trainer-card">
+                <img
+                  src="https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=800"
+                  alt="Alex"
+                  class="trainer-img"
+                />
+                <div class="trainer-info">
+                  <div class="trainer-role">STRENGTH SPECIALIST</div>
+                  <h4 class="trainer-name">ALEX RIVERA</h4>
+                  <div class="trainer-bio">
+                    Focusing on raw power production and biomechanics.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 trainer-card-wrap">
+              <div class="trainer-card">
+                <img
+                  src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=800"
+                  alt="Marcus"
+                  class="trainer-img"
+                />
+                <div class="trainer-info">
+                  <div class="trainer-role">COMBAT MASTER</div>
+                  <h4 class="trainer-name">MARCUS VANE</h4>
+                  <div class="trainer-bio">
+                    Professional MMA striking and defensive conditioning.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 trainer-card-wrap">
+              <div class="trainer-card">
+                <img
+                  src="https://images.unsplash.com/photo-1550345332-09e3ac987658?q=80&w=800"
+                  alt="Elena"
+                  class="trainer-img"
+                />
+                <div class="trainer-info">
+                  <div class="trainer-role">MOBILITY COACH</div>
+                  <h4 class="trainer-name">ELENA ROSSI</h4>
+                  <div class="trainer-bio">
+                    Advanced fascia release and joint longevity expert.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 trainer-card-wrap">
+              <div class="trainer-card">
+                <img
+                  src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?q=80&w=800"
+                  alt="Jax"
+                  class="trainer-img"
+                />
+                <div class="trainer-info">
+                  <div class="trainer-role">NUTRITION SCIENCE</div>
+                  <h4 class="trainer-name">JAXSON REED</h4>
+                  <div class="trainer-bio">
+                    Custom hormone-optimized fueling for high performance.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MemberShip -->
+      <section
+        id="membership"
+        class="membership-section py-100 position-relative"
+      >
+        <div class="container">
+          <div class="text-center mb-5 reveal-up">
+            <h5 class="text-primary fw-bold mb-3">04 // ACCESS LEVELS</h5>
+            <h2 class="display-3 fw-black">
+              MEMBERSHIP <span class="outline-text">PLANS</span>
+            </h2>
+            <p class="text-secondary-light">
+              Flexible tiers engineered for every stage of your evolution.
+            </p>
+          </div>
+
+          <div class="row g-4 align-items-center">
+            <div class="col-lg-4 pricing-column">
+              <div class="price-card">
+                <div class="price-header">
+                  <h4>ESSENTIAL</h4>
+                  <div class="price-amount">₹500<span>/month</span></div>
+                </div>
+                <div class="price-body">
+                  <ul class="feature-list">
+                    <li><i class="fas fa-check"></i> 24/7 Facility Access</li>
+                    <li><i class="fas fa-check"></i> Standard Locker Room</li>
+                    <li><i class="fas fa-check"></i> 1x Monthly Bio-Scan</li>
+                    <li class="disabled">
+                      <i class="fas fa-xmark"></i> Personal Training
+                    </li>
+                    <li class="disabled">
+                      <i class="fas fa-xmark"></i> Nutrition Coaching
+                    </li>
+                  </ul>
+                  <a href="./contact.html">
+                    <button class="btn-outline-white w-100">
+                      CHOOSE BASIC
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 pricing-column">
+              <div class="price-card featured-card">
+                <div class="popular-tag">MOST POPULAR</div>
+                <div class="price-header">
+                  <h4 class="text-primary">ELITE PRO</h4>
+                  <div class="price-amount text-white">
+                    ₹999<span>/month</span>
+                  </div>
+                </div>
+                <div class="price-body">
+                  <ul class="feature-list">
+                    <li>
+                      <i class="fas fa-check text-primary"></i> 24/7 Global
+                      Access
+                    </li>
+                    <li>
+                      <i class="fas fa-check text-primary"></i> VIP Recovery
+                      Suite
+                    </li>
+                    <li>
+                      <i class="fas fa-check text-primary"></i> Weekly
+                      Bio-Feedback
+                    </li>
+                    <li>
+                      <i class="fas fa-check text-primary"></i> 2x Group Combat
+                      Sessions
+                    </li>
+                    <li>
+                      <i class="fas fa-check text-primary"></i> Customized Fuel
+                      Plan
+                    </li>
+                  </ul>
+                  <a href="./contact.html" style="text-decoration: none">
+                    <button class="btn-ultra w-100">JOIN THE ELITE</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 pricing-column">
+              <div class="price-card">
+                <div class="price-header">
+                  <h4>TITAN VIP</h4>
+                  <div class="price-amount">₹1500<span>/month</span></div>
+                </div>
+                <div class="price-body">
+                  <ul class="feature-list">
+                    <li><i class="fas fa-check"></i> All Elite Pro Features</li>
+                    <li><i class="fas fa-check"></i> Dedicated Master Coach</li>
+                    <li><i class="fas fa-check"></i> Neural Load Analytics</li>
+                    <li><i class="fas fa-check"></i> Private Training Zone</li>
+                    <li><i class="fas fa-check"></i> Laundry & Gear Service</li>
+                  </ul>
+                  <a href="./contact.html" style="text-decoration: none">
+                    <button class="btn-outline-white w-100">GO TITAN</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- testimonial section  -->
+      <section class="testimonials py-100">
+        <div class="container text-center">
+          <div class="quote-icon mb-4">
+            <i class="fas fa-quote-left text-primary fa-3x"></i>
+          </div>
+          <div class="testimonial-slider">
+            <h2 class="testimonial-text">
+              "TITAN X completely changed my perspective on training. The
+              technology and the environment are unmatched."
+            </h2>
+            <p class="client-name mt-4">
+              — MARCUS VANE, <span class="text-primary">PRO ATHLETE</span>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Floating WhatsApp Button -->
+    <a
+      href="https://wa.me/919999999999?text=Hello%20I%20would%20like%20to%20book%20an%20Ayurveda%20consultation"
+      class="whatsapp-float"
+      target="_blank"
+      aria-label="Chat on WhatsApp"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <footer class="footer">
+      <div class="container">
+        <!-- Logo -->
+        <div class="footer-logo text-center mb-3">
+          <a href="./index.html" class="footer-brand">TITAN<span>X</span></a>
+        </div>
+
+        <!-- Navigation -->
+        <div class="footer-nav text-center mb-3">
+          <div class="nav-links">
+            <a href="./index.html">HOME</a>
+            <a href="#about">MISSION</a>
+            <a href="#programs">PROGRAMS</a>
+            <a href="#trainers">TRAINERS</a>
+            <a href="./about.html">About</a>
+            <a href="./contact.html">CONTACT</a>
+          </div>
+        </div>
+
+        <!-- Social Links -->
+        <div class="social-links text-center mb-3">
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-x-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-info text-center">
+          <div class="contact-item d-inline-block mx-3">
+            <i class="fas fa-map-marker-alt text-primary me-2"></i>
+            <span>77 Silicon Valley, CA</span>
+          </div>
+          <div class="contact-item d-inline-block mx-3">
+            <i class="fas fa-phone text-primary me-2"></i>
+            <span>+1 (555) 982-0010</span>
+          </div>
+          <div class="contact-item d-inline-block mx-3">
+            <i class="fas fa-envelope text-primary me-2"></i>
+            <span>info@titanx.com</span>
+          </div>
+        </div>
+
+        <!-- Divider -->
+        <hr class="footer-divider mb-3" />
+
+        <!-- Copyright -->
+        <div class="footer-bottom text-center">
+          <p class="copyright mb-0">
+            © 2025 TITAN X ELITE PERFORMANCE. ALL RIGHTS RESERVED.
+          </p>
+          <span style="color: #666; font-size: 13px">
+            Proudly designed by
+            <a
+              style="text-decoration: none; color: #666"
+              href="https://designglobal.in/"
+              target="_blank"
+              >Design Global Technology</a
+            >
+          </span>
+          <p class="legal-links mt-2 mb-2">
+            <a href="#" class="legal-link">PRIVACY POLICY</a>
+            <span class="mx-2">|</span>
+            <a href="#" class="legal-link">TERMS OF SERVICE</a>
+            <span class="mx-2">|</span>
+            <a href="./contact.html" class="legal-link">CONTACT</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./gsap/gsap.min.js"></script>
+    <script src="./gsap/ScrollTrigger.min.js"></script>
+    <script src="./gsap/app.js"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
